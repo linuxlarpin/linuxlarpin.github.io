@@ -24,7 +24,7 @@ const controls = new OrbitControls(camera, renderer.domElement);
 
 
 const loader = new GLTFLoader();
-loader.load('Untitled.glb', (gltf) => {
+loader.load('/Untitled.glb', (gltf) => {
     scene.add(gltf.scene);
 }, undefined, (error) => {
     console.error('An error happened', error);
