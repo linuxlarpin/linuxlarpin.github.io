@@ -44,7 +44,7 @@ function animate() {
     controls.update();
     renderer.render(scene, camera);
 }
-
+ // please work github you wont work on my repush
 window.addEventListener('resize', () => {
     camera.aspect = window.innerWidth / window.innerHeight;
     camera.updateProjectionMatrix();
